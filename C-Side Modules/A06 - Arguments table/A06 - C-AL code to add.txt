@@ -1,0 +1,50 @@
+DATASET
+{
+  { 3   ;    ;DataItem;Args                ;
+             DataItemTable=Table88051;
+             OnPreDataItem=BEGIN
+                             INSERT();
+                           END;
+
+             OnAfterGetRecord=BEGIN
+                                FillTempListTable();
+                              END;
+
+             Temporary=Yes }
+
+  { 2   ;1   ;DataItem;List                ;
+             DataItemTable=Table88050;
+             DataItemTableView=SORTING(Sales (LCY))
+                               ORDER(Descending);
+             Temporary=Yes }
+
+}
+
+LOCAL PROCEDURE FillTempListTable@1();
+VAR
+  TopCustomerOverview@1000 : Query 100;
+BEGIN
+  WITH TopCustomerOverview DO BEGIN
+    SETFILTER(No, Args."Customer No.");
+    SETFILTER(Global_Dimension_1_Code, Args."Global Dimension 1 Code");
+    SETFILTER(Global_Dimension_2_Code, Args."Global Dimension 2 Code");
+    SETFILTER(Salesperson_Code, Args."Salesperson Code");
+    SETFILTER(Country_Region_Code, Args."Country/Region Code");
+    OPEN();
+    WHILE READ() DO BEGIN
+      List."Entry No" := List."Entry No" + 1;
+      List."No." := No;
+      List.Name := Name;
+      List."Sales (LCY)" := Sales_LCY;
+      List."Profit (LCY)" := Profit_LCY;
+      List."Country/Region Code" := Country_Region_Code;
+      List.City := City;
+      List."Global Dimension 1 Code" := Global_Dimension_1_Code;
+      List."Global Dimension 2 Code" := Global_Dimension_2_Code;
+      List."Salesperson Code" := Salesperson_Code;
+      List."Salesperson Name" := SalesPersonName;
+      List."Country Region Name" := CountryRegionName;
+      List.INSERT();
+    END;
+  END;
+END;

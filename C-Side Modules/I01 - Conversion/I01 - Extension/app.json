@@ -1,0 +1,24 @@
+{
+  "id": "2e9dd6f4-91db-451b-a555-75acc77954e6",
+  "name": "I01 - Extension",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 89000,
+    "to": 89999
+  },
+  "runtime": "2.1",
+  "target": "Internal"
+}

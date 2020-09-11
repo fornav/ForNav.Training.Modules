@@ -1,0 +1,229 @@
+OBJECT Report 88005 Cust. Entries List (Classic)
+{
+  OBJECT-PROPERTIES
+  {
+    Date=26-04-16;
+    Time=06:55:14;
+    Version List=CLASSIC;
+  }
+  PROPERTIES
+  {
+  }
+  DATAITEMS
+  {
+    { PROPERTIES
+      {
+        DataItemTable=Table18;
+        PrintOnlyIfDetail=Yes;
+      }
+      SECTIONS
+      {
+        { PROPERTIES
+          {
+            SectionType=Header;
+            SectionWidth=12300;
+            SectionHeight=423;
+          }
+          CONTROLS
+          {
+            { 1000000001;Label  ;0    ;0    ;1500 ;423  ;ParentControl=1000000000;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+            { 1000000003;Label  ;1650 ;0    ;4500 ;423  ;ParentControl=1000000002;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+          }
+           }
+        { PROPERTIES
+          {
+            SectionType=TransHeader;
+            SectionWidth=12300;
+            SectionHeight=423;
+          }
+          CONTROLS
+          {
+            { 1000000004;Label  ;1650 ;0    ;4500 ;423  ;ParentControl=1000000002;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+            { 1000000005;Label  ;0    ;0    ;1500 ;423  ;ParentControl=1000000000;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+          }
+           }
+        { PROPERTIES
+          {
+            SectionType=Body;
+            SectionWidth=12300;
+            SectionHeight=423;
+          }
+          CONTROLS
+          {
+            { 1000000002;TextBox;1650 ;0    ;4500 ;423  ;SourceExpr=Name }
+            { 1000000000;TextBox;0    ;0    ;1500 ;423  ;SourceExpr="No." }
+          }
+           }
+      }
+       }
+    { PROPERTIES
+      {
+        DataItemIndent=1;
+        DataItemTable=Table21;
+        TotalFields=Amount;
+        CalcFields=Amount;
+        DataItemLink=Customer No.=FIELD(No.);
+      }
+      SECTIONS
+      {
+        { PROPERTIES
+          {
+            SectionType=Header;
+            SectionWidth=12300;
+            SectionHeight=423;
+          }
+          CONTROLS
+          {
+            { 1000000007;Label  ;600  ;0    ;1800 ;423  ;ParentControl=1000000006;
+                                                         HorzAlign=Right;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+            { 1000000009;Label  ;2550 ;0    ;1650 ;423  ;ParentControl=1000000008;
+                                                         HorzAlign=Right;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+            { 1000000011;Label  ;4350 ;0    ;1800 ;423  ;ParentControl=1000000010;
+                                                         HorzAlign=Right;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+          }
+           }
+        { PROPERTIES
+          {
+            SectionType=TransHeader;
+            SectionWidth=12300;
+            SectionHeight=423;
+          }
+          CONTROLS
+          {
+            { 1000000012;Label  ;600  ;0    ;1800 ;423  ;ParentControl=1000000006;
+                                                         HorzAlign=Right;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+            { 1000000013;Label  ;2550 ;0    ;1650 ;423  ;ParentControl=1000000008;
+                                                         HorzAlign=Right;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+            { 1000000014;Label  ;4350 ;0    ;1800 ;423  ;ParentControl=1000000010;
+                                                         HorzAlign=Right;
+                                                         VertAlign=Bottom;
+                                                         FontBold=Yes;
+                                                         MultiLine=Yes }
+          }
+           }
+        { PROPERTIES
+          {
+            SectionType=Body;
+            SectionWidth=12300;
+            SectionHeight=423;
+            OnPreSection=BEGIN
+                           CurrReport.SHOWOUTPUT(Amount >= 0)
+                         END;
+
+          }
+          CONTROLS
+          {
+            { 1000000019;TextBox;4350 ;0    ;1800 ;423  ;SourceExpr=Amount }
+            { 1000000020;TextBox;2550 ;0    ;1650 ;423  ;SourceExpr="Posting Date" }
+            { 1000000021;TextBox;600  ;0    ;1800 ;423  ;SourceExpr="Entry No." }
+          }
+           }
+        { PROPERTIES
+          {
+            SectionType=Body;
+            SectionWidth=12300;
+            SectionHeight=423;
+            OnPreSection=BEGIN
+                           CurrReport.SHOWOUTPUT(Amount < 0)
+                         END;
+
+          }
+          CONTROLS
+          {
+            { 1000000006;TextBox;600  ;0    ;1800 ;423  ;SourceExpr="Entry No." }
+            { 1000000008;TextBox;2550 ;0    ;1650 ;423  ;SourceExpr="Posting Date" }
+            { 1000000010;TextBox;4350 ;0    ;1800 ;423  ;FontItalic=Yes;
+                                                         SourceExpr=Amount }
+          }
+           }
+        { PROPERTIES
+          {
+            SectionType=TransFooter;
+            SectionWidth=12300;
+            SectionHeight=846;
+          }
+          CONTROLS
+          {
+            { 1000000015;TextBox;4350 ;0    ;1800 ;423  ;FontBold=Yes;
+                                                         FontItalic=Yes;
+                                                         SourceExpr=Amount }
+            { 1000000017;Label  ;2550 ;0    ;1650 ;423  ;FontBold=Yes;
+                                                         FontItalic=Yes;
+                                                         CaptionML=ENU=Trans Total }
+          }
+           }
+        { PROPERTIES
+          {
+            SectionType=Footer;
+            SectionWidth=12300;
+            SectionHeight=846;
+          }
+          CONTROLS
+          {
+            { 1000000016;TextBox;4350 ;0    ;1800 ;423  ;FontBold=Yes;
+                                                         SourceExpr=Amount }
+            { 1000000018;Label  ;2550 ;0    ;1650 ;423  ;FontBold=Yes;
+                                                         CaptionML=ENU=Total }
+          }
+           }
+      }
+       }
+  }
+  REQUESTFORM
+  {
+    PROPERTIES
+    {
+      Width=9020;
+      Height=3410;
+    }
+    CONTROLS
+    {
+    }
+  }
+  REQUESTPAGE
+  {
+    PROPERTIES
+    {
+    }
+    CONTROLS
+    {
+    }
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+  RDLDATA
+  {
+  }
+}
+

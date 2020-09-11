@@ -1,0 +1,24 @@
+{
+	"id": "98f6faa1-a951-4749-af71-2cff62d4311f",
+	"name": "W05 - Extension",
+	"publisher": "ForNAV Aps",
+	"brief": "",
+	"description": "",
+	"version": "4.1.0.1696",
+	"privacyStatement": "",
+	"EULA": "",
+	"help": "",
+	"url": "",
+	"logo": "",
+	"capabilities": [],
+	"dependencies": [ 
+    	{ "appId": "6f0293d3-86fc-4ff8-9632-54a580be6546", "name": "ForNAV Core", "publisher": "ForNAV", "version": "4.0.0.0" },
+		{ "appId": "83326d6d-11f8-49fd-981a-6f266a7c8d81", "name": "Customizable Report Pack", "publisher": "ForNAV", "version": "4.0.0.0"}
+	],
+	"screenshots": [],
+	"platform": "14.0.0.0",
+	"application": "14.0.0.0",
+	"showMyCode": true,
+	"target": "Extension",
+	"runtime": "2.3"
+}

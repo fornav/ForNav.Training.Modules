@@ -1,0 +1,30 @@
+OnInitReport=VAR
+               MyFile@1000 : File;
+               MyInStream@1001 : InStream;
+             BEGIN
+               ;ReportForNav:= ReportForNav.Report(CurrReport.OBJECTID,CurrReport.LANGUAGE,SERIALNUMBER,USERID,COMPANYNAME);ReportForNav.Init;
+
+               MyFile.OPEN('C:\Temp\Append.pdf');
+               MyFile.CREATEINSTREAM(MyInStream);
+               ReportForNav.GetDataItem('Header').AppendPdf(MyInStream);
+             END;
+			 
+OnPreReport=BEGIN
+              ;ReportForNav.OpenDesigner:=ReportForNavOpenDesigner;IF NOT ReportForNav.Pre THEN CurrReport.QUIT;
+              LoadWatermark;
+            END;
+			 
+LOCAL PROCEDURE LoadWatermark@1000000007();
+VAR
+  ForNAVSetup@1000000002 : Record 70000;
+  OutStream@1000000001 : OutStream;
+BEGIN
+  WITH ForNAVSetup DO BEGIN
+    GET;
+    CALCFIELDS("Document Watermark");
+    IF NOT "Document Watermark".HASVALUE THEN
+      EXIT;
+    "Document Watermark".CREATEOUTSTREAM(OutStream);
+    ReportForNav.Watermark.Image.Load(OutStream);
+  END;
+END;

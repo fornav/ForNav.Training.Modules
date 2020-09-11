@@ -1,0 +1,17 @@
+ForNAVSetup.Get();
+if ( PrintLogo()) {
+  ForNAVSetup.CalcFields('Logo');
+}
+
+function PrintLogo() {
+  if (!ForNAVSetup.UsePreprintedPaper) {
+    return true;
+  }
+  if (CurrReport.PrinterSettings.PrintTo=='PDF') {
+    return true;
+  }
+  if (CurrReport.PrinterSettings.PrintTo=='Preview') {
+    return true;
+  }
+  return false;
+}

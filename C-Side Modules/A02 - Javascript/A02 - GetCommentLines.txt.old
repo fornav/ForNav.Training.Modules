@@ -1,0 +1,11 @@
+var comments = '';
+
+SalesCommentLine.SetFilter('DocumentType', '7');
+SalesCommentLine.SetFilter('No', Header.No);
+if (SalesCommentLine.First()) {
+  comments = SalesCommentLine.Comment;
+}
+
+while (SalesCommentLine.Next()) {
+  comments += ' ' + SalesCommentLine.Comment;
+}

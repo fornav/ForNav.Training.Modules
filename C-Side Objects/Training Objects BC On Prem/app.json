@@ -1,0 +1,24 @@
+{
+  "id": "4afb1651-e50d-4ab0-b0d1-bd624d82f393",
+  "name": "Training Objects BC On Prem",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 70000,
+    "to": 89999
+  },
+  "runtime": "2.3",
+  "target": "Internal"
+}

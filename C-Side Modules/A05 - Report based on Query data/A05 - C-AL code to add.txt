@@ -1,0 +1,28 @@
+OnPreReport=BEGIN
+              ;ReportForNav.OpenDesigner:=ReportForNavOpenDesigner;IF NOT ReportForNav.Pre THEN CurrReport.QUIT;
+              FillTempListTable();
+            END;
+
+LOCAL PROCEDURE FillTempListTable@1();
+VAR
+  TopCustomerOverview@1000 : Query 100;
+BEGIN
+  WITH TopCustomerOverview DO BEGIN
+    OPEN();
+    WHILE READ() DO BEGIN
+      List."Entry No" := List."Entry No" + 1;
+      List."No." := No;
+      List.Name := Name;
+      List."Sales (LCY)" := Sales_LCY;
+      List."Profit (LCY)" := Profit_LCY;
+      List."Country/Region Code" := Country_Region_Code;
+      List.City := City;
+      List."Global Dimension 1 Code" := Global_Dimension_1_Code;
+      List."Global Dimension 2 Code" := Global_Dimension_2_Code;
+      List."Salesperson Code" := Salesperson_Code;
+      List."Salesperson Name" := SalesPersonName;
+      List."Country Region Name" := CountryRegionName;
+      List.INSERT();
+    END;
+  END;
+END;

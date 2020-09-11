@@ -1,0 +1,23 @@
+{
+	"id": "efb99f97-7386-4c5e-aea5-5aec41441fec",
+	"name": "W05 - Extension On Premise",
+	"publisher": "ForNAV Aps",
+	"brief": "",
+	"description": "",
+	"version": "4.1.0.1696",
+	"privacyStatement": "",
+	"EULA": "",
+	"help": "",
+	"url": "",
+	"logo": "",
+	"capabilities": [],
+	"dependencies": [ 
+		{ "appId": "9cd72041-6922-4714-9902-9f0962661ad0", "name": "ForNAV Report Pack", "publisher": "ForNAV ApS", "version": "14.0.0.0" }
+	],
+	"screenshots": [],
+	"platform": "14.0.0.0",
+	"application": "14.0.0.0",
+	"showMyCode": true,
+	"target": "Internal",
+	"runtime": "2.3"
+}

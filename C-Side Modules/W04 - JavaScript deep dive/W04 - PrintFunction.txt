@@ -1,0 +1,11 @@
+ForNAVSetup.Get();
+if ( PrintLogo()) {
+  ForNAVSetup.CalcFields('Logo');
+}
+
+function PrintLogo() {
+  if (!ForNAVSetup.UsePreprintedPaper) {
+    return true;
+  }
+  return false;
+}

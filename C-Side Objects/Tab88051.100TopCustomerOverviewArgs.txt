@@ -1,0 +1,54 @@
+OBJECT Table 88051 100 Top Customer Overview Args
+{
+  OBJECT-PROPERTIES
+  {
+    Modified=Yes;
+    Version List=TRN1.0.0;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Entry No.           ;Integer       ;DataClassification=ToBeClassified }
+    { 2   ;   ;Customer No.        ;Code20        ;TableRelation=Customer;
+                                                   DataClassification=ToBeClassified;
+                                                   CaptionML=ENU=Customer No. }
+    { 3   ;   ;Global Dimension 1 Code;Code20     ;TableRelation="Dimension Value".Code WHERE (Global Dimension No.=CONST(1));
+                                                   DataClassification=ToBeClassified;
+                                                   CaptionML=ENU=Global Dimension 1 Code;
+                                                   CaptionClass='1,1,1' }
+    { 4   ;   ;Global Dimension 2 Code;Code20     ;TableRelation="Dimension Value".Code WHERE (Global Dimension No.=CONST(2));
+                                                   DataClassification=ToBeClassified;
+                                                   CaptionML=ENU=Global Dimension 2 Code;
+                                                   CaptionClass='1,1,2' }
+    { 5   ;   ;Salesperson Code    ;Code20        ;TableRelation=Salesperson/Purchaser;
+                                                   DataClassification=ToBeClassified;
+                                                   CaptionML=ENU=Salesperson Code }
+    { 6   ;   ;Country/Region Code ;Code10        ;TableRelation=Country/Region;
+                                                   DataClassification=ToBeClassified;
+                                                   CaptionML=ENU=Country/Region Code }
+  }
+  KEYS
+  {
+    {    ;Entry No.                               ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    {
+      Copyright (c) 2019 ForNAV ApS - All Rights Reserved
+      The intellectual work and technical concepts contained in this file are proprietary to ForNAV.
+      Unauthorized reverse engineering, distribution or copying of this file, parts hereof, or derived work, via any medium is strictly prohibited without written permission from ForNAV ApS.
+      This source code is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      
+                
+    }
+    END.
+  }
+}
+

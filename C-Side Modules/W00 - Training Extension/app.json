@@ -1,0 +1,28 @@
+{
+  "id": "8c890e35-75dc-40a9-af21-323342cf3096",
+  "name": "W00 - Training Extension",
+  "publisher": "ForNAV Aps",
+  "version": "14.0.0.0",
+  "brief": "Extension for the ForNAV cloud training",
+  "description": "Extension used for the ForNAV cloud training",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "https://www.fornav.com/support/",
+  "url": "https://www.fornav.com/training/",
+  "logo": "",
+	"dependencies": [ 
+    { "appId": "6f0293d3-86fc-4ff8-9632-54a580be6546", "name": "ForNAV Core", "publisher": "ForNAV", "version": "4.0.0.0" },
+    { "appId": "83326d6d-11f8-49fd-981a-6f266a7c8d81", "name": "Customizable Report Pack", "publisher": "ForNAV", "version": "4.0.0.0"} ],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 90000
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://W00-TrainingExtension.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0"
+}

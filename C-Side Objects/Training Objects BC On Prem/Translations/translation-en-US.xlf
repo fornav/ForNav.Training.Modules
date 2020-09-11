@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2101180119 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 2623446097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales (LCY)</source>
+          <target>Sales (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Sales (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 2618409075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profit (LCY)</source>
+          <target>Profit (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Profit (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Country/Region Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <target>City</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 1303377601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 1 Code</source>
+          <target>Global Dimension 1 Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Global Dimension 1 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 1337243520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 2 Code</source>
+          <target>Global Dimension 2 Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Global Dimension 2 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <target>Salesperson Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 940688118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Name</source>
+          <target>Salesperson Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Salesperson Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2101180119 - Field 2373390545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country Region Name</source>
+          <target>Country Region Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview - Field Country Region Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 304086742 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Customer No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview Args - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 304086742 - Field 1303377601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 1 Code</source>
+          <target>Global Dimension 1 Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview Args - Field Global Dimension 1 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 304086742 - Field 1337243520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 2 Code</source>
+          <target>Global Dimension 2 Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview Args - Field Global Dimension 2 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 304086742 - Field 553464652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <target>Salesperson Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview Args - Field Salesperson Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 304086742 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Country/Region Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table 100 Top Customer Overview Args - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1661264026 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report B02 Customer Top 10 - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1661264026 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report B02 Customer Top 10 - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1619525746 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report B02 Vendor Top 10 - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1619525746 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report B02 Vendor Top 10 - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2370030462 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report I02 Sales Invoice Start - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2370030462 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report I02 Sales Invoice Start - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3884552563 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report I02 Sales Invoice Finish - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3884552563 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report I02 Sales Invoice Finish - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1534970612 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report I03 Sales Invoice Finish - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1534970612 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report I03 Sales Invoice Finish - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1657963422 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Cust. Entries List (Classic) - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1657963422 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Cust. Entries List (Classic) - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1314145009 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report I04 Sales Invoice Finish - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1314145009 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report I04 Sales Invoice Finish - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3831319535 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report B03 - Sales Invoice - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3831319535 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report B03 - Sales Invoice - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1641611380 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report JavaScript Demo - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1641611380 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report JavaScript Demo - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 440053326 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A02 JavaScript Finished - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 440053326 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A02 JavaScript Finished - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4023730087 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A04 Template Start - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4023730087 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A04 Template Start - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2476138425 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A04 Template Finished - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2476138425 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A04 Template Finished - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1949655740 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A03 Sales Invoice Finish - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1949655740 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A03 Sales Invoice Finish - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1256723339 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A05 100 Top Customer Overview - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1256723339 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A05 100 Top Customer Overview - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3520103324 - Control 278668811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Fields</source>
+          <target>Filter Fields</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A06 100 Top Cust Overview Args - Control "Filter Fields" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3520103324 - Control 3177403750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Customer No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A06 100 Top Cust Overview Args - Control Args."Customer No." - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3520103324 - Control 2489541842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 1 Code</source>
+          <target>Dimension 1 Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A06 100 Top Cust Overview Args - Control Args."Global Dimension 1 Code" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3520103324 - Control 1067463543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 2 Code</source>
+          <target>Dimension 2 Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A06 100 Top Cust Overview Args - Control Args."Global Dimension 2 Code" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3520103324 - Control 756122443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Code</source>
+          <target>Salesperson Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A06 100 Top Cust Overview Args - Control Args."Salesperson Code" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3520103324 - Control 3173843565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country Region Code</source>
+          <target>Country Region Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A06 100 Top Cust Overview Args - Control Args."Country/Region Code" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3520103324 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A06 100 Top Cust Overview Args - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3520103324 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report A06 100 Top Cust Overview Args - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - List</source>
+          <target>Customer - List</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - Control 1992870141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design</source>
+          <target>Design</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - Control ForNavOpenDesigner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 2915928095" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - List</source>
+          <target>Customer - List</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType Customer___ListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target>Page</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 3423238360" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Posting Group</source>
+          <target>Customer Posting Group</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType Customer__Customer_Posting_Group_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 3876523418" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cust./Item Disc. Gr.</source>
+          <target>Cust./Item Disc. Gr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType Customer__Customer_Disc__Group_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 4049856195" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Disc. Code</source>
+          <target>Invoice Disc. Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType Customer__Invoice_Disc__Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 3311855227" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Group Code</source>
+          <target>Price Group Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType Customer__Customer_Price_Group_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 245274959" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <target>Payment Terms Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType Customer__Payment_Terms_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 2147829470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Currency Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType Customer__Currency_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 559849542 - NamedType 4124852849" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total (LCY)</source>
+          <target>Total (LCY)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer - List(101) - NamedType Total__LCY_CaptionLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

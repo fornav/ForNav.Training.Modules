@@ -1,0 +1,31 @@
+function GetPreviousInvoice() {
+  var previousInvoice;
+  
+  SalesInvoiceHeader.SetRange('No', Header.No);
+  if (SalesInvoiceHeader.Last()) {
+  previousInvoice = SalesInvoiceHeader.No;
+  }
+  return previousInvoice;
+}
+
+function GetPreviousInvoice() {
+  var previousInvoice;
+  
+  SalesInvoiceHeader.SetFilter('Sell_toCustomerNo', Header.Sell_toCustomerNo);
+  if (SalesInvoiceHeader.First()) {
+    previousInvoice = SalesInvoiceHeader.No;
+  }
+  return previousInvoice;
+}
+
+function GetPreviousInvoice() {
+  var previousInvoice;
+  
+  SalesInvoiceHeader.SetFilter('Sell_toCustomerNo', Header.Sell_toCustomerNo);
+  if (SalesInvoiceHeader.First()) {
+    SalesInvoiceHeader.CalcFields(‘Amount’);
+  }
+  return previousInvoice;
+}
+
+GetPreviousInvoice();

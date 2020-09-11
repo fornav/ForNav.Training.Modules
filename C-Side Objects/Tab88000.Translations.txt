@@ -1,0 +1,46 @@
+OBJECT Table 88000 Translations
+{
+  OBJECT-PROPERTIES
+  {
+    Date=27-03-19;
+    Time=07:53:56;
+    Modified=Yes;
+    Version List=TRN1.0.0;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;No.                 ;Boolean       ;DataClassification=ToBeClassified;
+                                                   CaptionML=[DEU=Nr.;
+                                                              ENU=No.;
+                                                              NLD=Nr.] }
+    { 2   ;   ;Description         ;Boolean       ;DataClassification=ToBeClassified;
+                                                   CaptionML=[DEU=Beschreibung;
+                                                              ENU=Description;
+                                                              NLD=Omschrijving] }
+  }
+  KEYS
+  {
+    {    ;No.                                     ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    {
+      Copyright (c) 2019 ForNAV ApS - All Rights Reserved
+      The intellectual work and technical concepts contained in this file are proprietary to ForNAV.
+      Unauthorized reverse engineering, distribution or copying of this file, parts hereof, or derived work, via any medium is strictly prohibited without written permission from ForNAV ApS.
+      This source code is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      
+                
+    }
+    END.
+  }
+}
+

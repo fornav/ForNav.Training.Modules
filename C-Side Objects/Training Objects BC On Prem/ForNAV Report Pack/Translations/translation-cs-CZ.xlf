@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="cs-CZ" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1167270799 - Method 3771322014 - NamedType 4039144667" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to replace the current reports with the ForNAV reports?</source>
+          <target>Vuoi sostituire i rapporti correnti con i rapporti ForNAV?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Method ReplaceReportSelection - NamedType DoYouWantToQst</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 1740325350 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Date Formula %1 cannot be used</source>
+          <target>Ekki má nota dagsetningarformúluna% 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CalcDates - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 3991716953 - NamedType 3369616619" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Due</source>
+          <target>Ekki vegna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CreateHeadings - NamedType NotDueTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 3991716953 - NamedType 457893867" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Before</source>
+          <target>Á?ur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CreateHeadings - NamedType BeforeTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 3991716953 - NamedType 2072192433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target>daga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CreateHeadings - NamedType DaysTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 3991716953 - NamedType 158957122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>More than</source>
+          <target>Meira en</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CreateHeadings - NamedType MoreThanTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Method 3439578032 - NamedType 112908608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wrong Function Call</source>
+          <target>Rangt virka símtal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Method CreateValues - NamedType WrongCallErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 192864614 - Method 3884954611 - NamedType 1786305520" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to setup ForNAV with default values?</source>
+          <target>Viltu setja upp ForNAV me? sjálfgefnum gildum?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ForNAV First Time Setup - Method AskForDefault - NamedType SetDefaultsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2478261208 - Method 1348281459 - NamedType 788912332" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV is installed but not setup. Do you want to do this now?</source>
+          <target>ForNAV er uppsett en ekki uppsetning. Viltu gera ?etta núna?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ForNAV Notifications - Method ShowSetupNotification - NamedType ForNAVNotSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2478261208 - Method 1348281459 - NamedType 1517371649" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target>Já</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ForNAV Notifications - Method ShowSetupNotification - NamedType Yes</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2478261208 - Method 1348281459 - NamedType 2907186646" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No, and please don't remind me again.</source>
+          <target>Nei, og vinsamlegast ekki spyrja mig aftur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ForNAV Notifications - Method ShowSetupNotification - NamedType NoAndDontAskAgain</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

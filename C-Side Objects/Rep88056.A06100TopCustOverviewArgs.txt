@@ -1,0 +1,402 @@
+OBJECT Report 88056 A06 100 Top Cust Overview Args
+{
+  OBJECT-PROPERTIES
+  {
+    Modified=Yes;
+    Date=15-10-19;
+    Time=14:44:37;
+    Version List=TRN1.0.0,FORNAV4.1.0.1696/1696;
+    
+  }
+  PROPERTIES
+  {
+    OnInitReport=BEGIN
+                   {;ReportForNav};ReportsForNavInit();
+                 END;
+    OnPreReport=BEGIN
+                  ;ReportForNav.OpenDesigner:=ReportForNavOpenDesigner;IF NOT ReportForNav.Pre THEN CurrReport.QUIT;
+                END;
+    OnPostReport=BEGIN
+                   ;ReportForNav.Post;
+                 END;
+    
+  }
+  DATASET
+  {
+    { 3;   ;DataItem; Args                  ;
+               DataItemTable=Table88051;
+               OnPreDataItem=BEGIN
+                               INSERT();
+                             END;
+               OnAfterGetRecord=BEGIN
+                                  FillTempListTable();
+                                END;
+               Temporary=Yes;
+                }
+    { 2; 1 ;DataItem; List                  ;
+               DataItemTable=Table88050;
+               DataItemTableView=SORTING(Sales (LCY)) ORDER(Descending);
+               Temporary=Yes;
+                }
+
+  }
+
+  REQUESTPAGE
+  {
+    PROPERTIES
+    {
+    }
+    CONTROLS
+    {
+      { 1900000001;0;Container;
+                  ContainerType=ContentArea }
+
+      { 1   ;1   ;Group     ;
+                  CaptionML=ENU=Filter Fields;
+                  GroupType=Group }
+
+      { 2   ;2   ;Field     ;
+                  CaptionML=ENU=Customer No.;
+                  SourceExpr=Args."Customer No.";
+                  TableRelation=Customer }
+
+      { 3   ;2   ;Field     ;
+                  CaptionML=ENU=Dimension 1 Code;
+                  SourceExpr=Args."Global Dimension 1 Code";
+                  TableRelation="Dimension Value".Code WHERE (Global Dimension No.=CONST(1)) }
+
+      { 4   ;2   ;Field     ;
+                  CaptionML=ENU=Dimension 2 Code;
+                  SourceExpr=Args."Global Dimension 2 Code";
+                  TableRelation="Dimension Value".Code WHERE (Global Dimension No.=CONST(2)) }
+
+      { 5   ;2   ;Field     ;
+                  CaptionML=ENU=Salesperson Code;
+                  SourceExpr=Args."Salesperson Code";
+                  TableRelation=Salesperson/Purchaser }
+
+      { 6   ;2   ;Field     ;
+                  CaptionML=ENU=Country Region Code;
+                  SourceExpr=Args."Country/Region Code";
+                  TableRelation=Country/Region }
+
+      { 1900000002;1;Group  ;
+                  CaptionML=[CSY=Mo§nosti;
+                             DAN=Indstillinger;
+                             DEU=Optionen;
+                             ENU=Options;
+                             FIN=Vaihtoehdot;
+                             ISL=Valkostir;
+                             NLD=Opties;
+                             NOR=Alternativer;
+                             SVE=Alternativ;
+                             ITS=Opzioni;
+                             NLB=Opties] }
+
+      { 5000;2   ;Field     ;
+                  Name=ForNavOpenDesigner;
+                  CaptionML=ENU=Open Designer;
+                  SourceExpr=ReportForNavOpenDesigner;
+                  Visible=ReportForNavAllowDesign }
+
+    }
+  }
+  LABELS
+  {
+  }
+  CODE
+  {
+    VAR
+      ReportForNav@5000 : DotNet "'ForNav.Reports.4.1.0.1696, Version=4.1.0.1696, Culture=neutral, PublicKeyToken=5284c1af2984feb0'.ForNav.Report" WITHEVENTS;
+      ReportForNavClient@5003 : DotNet "'ForNav.Reports.4.1.0.1696, Version=4.1.0.1696, Culture=neutral, PublicKeyToken=5284c1af2984feb0'.ForNav.Report" RUNONCLIENT;
+      ReportForNavDialog@5001: Dialog;
+      ReportForNavOpenDesigner@5002 : Boolean;
+      ReportForNavAllowDesign@5004 : Boolean INDATASET;
+
+    LOCAL PROCEDURE ReportsForNavInit@5005();
+    VAR
+      fn : Text;
+    BEGIN
+      fn := APPLICATIONPATH + 'Add-ins\ReportsForNAV_4_1_0_1696\ForNav.Reports.4.1.0.1696.dll';
+      IF NOT FILE.EXISTS(APPLICATIONPATH + 'Add-ins\ReportsForNAV_4_1_0_1696\ForNav.Reports.4.1.0.1696.dll') THEN
+        ERROR('Please install the ForNAV DLL version 4.1.0.1696 in your service tier Add-ins folder under the file name "%1"', fn);
+      ReportForNav:= ReportForNav.Report(CurrReport.OBJECTID,CurrReport.LANGUAGE,SERIALNUMBER,USERID,COMPANYNAME);
+      ReportForNav.Init;
+    END;
+
+    EVENT ReportForNav@5000::OnInit@5002();
+    VAR
+      ReportLayoutSelection@1000 : Record 9651;
+      CustomReportLayout@1001 : Record 9650;
+      CustomLayoutID@1002 : Variant;
+      EmptyLayout@1003 : Text;
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      EmptyLayout := FORMAT(ReportLayoutSelection."6");
+      CustomLayoutID := ReportLayoutSelection."6";
+      ReportForNav.OData := GETURL(CLIENTTYPE::OData, COMPANYNAME, OBJECTTYPE::Page, 7702);
+      IF FORMAT(ReportLayoutSelection.GetTempLayoutSelected) <> EmptyLayout THEN
+        CustomLayoutID := ReportLayoutSelection.GetTempLayoutSelected
+      ELSE
+        IF ReportLayoutSelection.HasCustomLayout(ReportForNav.ReportID) = 1 THEN
+          CustomLayoutID := ReportLayoutSelection."6";
+    
+      IF (FORMAT(CustomLayoutID) <> EmptyLayout) AND CustomReportLayout.GET(CustomLayoutID) THEN BEGIN
+        CustomReportLayout.TESTFIELD(Type,CustomReportLayout.Type::RDLC);
+        ReportForNav.IsCustomLayout := TRUE;
+      END;
+    
+      IF ReportForNav.IsWindowsClient THEN BEGIN
+        ReportForNav.CheckClientAddIn();
+        ReportForNavClient := ReportForNavClient.Report(ReportForNav.Definition);
+        ReportForNavAllowDesign := ReportForNavClient.HasDesigner AND NOT ReportForNav.ParameterMode;
+      END;
+    END;
+
+    EVENT ReportForNav@5000::OnSave@5010(Base64Layout@1000 : Text);
+    VAR
+      CustomReportLayout@1002 : Record 9650;
+      ReportLayoutSelection@1003 : Record 9651;
+      LayoutId@1004 : Variant;
+      TempBlob@1007 : Record 99008535;
+      OutStream@1006 : OutStream;
+      Bstr@1005 : BigText;
+      EmptyLayout@1001 : Text;
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      EmptyLayout := FORMAT(ReportLayoutSelection."6");
+      LayoutId := ReportLayoutSelection."6";
+      IF ReportLayoutSelection.HasCustomLayout(ReportForNav.ReportID) = 1 THEN BEGIN
+        IF FORMAT(ReportLayoutSelection.GetTempLayoutSelected) <> EmptyLayout THEN BEGIN
+          LayoutId := ReportLayoutSelection.GetTempLayoutSelected;
+        END ELSE BEGIN
+          IF ReportLayoutSelection.GET(ReportForNav.ReportID, COMPANYNAME) THEN BEGIN
+          LayoutId := ReportLayoutSelection."6";
+          END;
+        END;
+      END ELSE BEGIN
+        IF CONFIRM('Default custom layout not found. Create one?') THEN;
+      END;
+      IF FORMAT(LayoutId) <> EmptyLayout THEN BEGIN
+        TempBlob.Blob.CREATEOUTSTREAM(OutStream);
+        Bstr.ADDTEXT(Base64Layout);
+        Bstr.WRITE(OutStream);
+        CustomReportLayout.GET(LayoutId);
+        CustomReportLayout.ImportLayoutBlob(TempBlob, 'RDL');
+      END;
+    END;
+    
+
+    EVENT ReportForNav@5000::OnParameters@5008(Parameters@1000 : Text);
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      ReportForNav.Parameters := REPORT.RUNREQUESTPAGE(ReportForNav.ReportID, Parameters);
+    END;
+    
+
+    EVENT ReportForNav@5000::OnPreview@5009(Parameters@1000 : Text;FileName@1005 : Text);
+    VAR
+      PdfFile@1002 : File;
+      InStream@1003 : InStream;
+      OutStream@1004 : OutStream;
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      COMMIT;
+      PdfFile.CREATETEMPFILE;
+      PdfFile.CREATEOUTSTREAM(OutStream);
+      REPORT.SAVEAS(ReportForNav.ReportID, Parameters, REPORTFORMAT::Pdf, OutStream);
+      PdfFile.CREATEINSTREAM(InStream);
+      IF ReportForNav.IsValidPdf(PdfFile.NAME) THEN DOWNLOADFROMSTREAM(InStream, '', '', '', FileName);
+      PdfFile.CLOSE;
+    END;
+    
+
+    EVENT ReportForNav@5000::OnPreSection@5012(DataItemId : Text;SectionId : Text); 
+    BEGIN
+      
+    END;
+    
+    EVENT ReportForNav@5000::OnPostSection@5013(DataItemId : Text;SectionId : Text); 
+    BEGIN
+      
+    END;
+    
+
+    EVENT ReportForNav@5000::OnSelectPrinter@5006();
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      ReportForNav.PrinterSettings.PageSettings := ReportForNavClient.SelectPrinter(ReportForNav.PrinterSettings.PrinterName,ReportForNav.PrinterSettings.ShowPrinterDialog,ReportForNav.PrinterSettings.PageSettings);
+    END;
+    
+    EVENT ReportForNav@5000::OnPrint@5005(InStream : DotNet "'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.IO.Stream");
+    VAR
+      ClientFileName : Text[255];
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      DOWNLOADFROMSTREAM(InStream, '', '<TEMP>', '', ClientFileName);
+      ReportForNavClient.Print(ClientFileName); 
+    END;
+    
+    EVENT ReportForNav@5000::OnDesign@5007(Data@1001 : Text);
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      ReportForNavClient.Data := Data;
+      WHILE ReportForNavClient.DesignReport DO BEGIN
+        ReportForNav.HandleRequest(ReportForNavClient.GetRequest());
+        SLEEP(100);
+      END;
+    END;
+    
+
+    EVENT ReportForNav@5000::OnView@5003(ClientFileName : Text; Parameters : Text; ServerFileName : Text);
+    VAR
+      ServerFile : File;
+      ServerInStream : InStream;
+      Filter : Text;
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      ServerFile.OPEN(ServerFileName);
+      ServerFile.CREATEINSTREAM(ServerInStream);
+      IF STRLEN(ClientFileName) >= 4 THEN IF LOWERCASE(COPYSTR(ClientFileName, STRLEN(ClientFileName)-3, 4)) = '.pdf' THEN Filter := 'PDF (*.pdf)|*.pdf';
+      IF STRLEN(ClientFileName) >= 4 THEN IF LOWERCASE(COPYSTR(ClientFileName, STRLEN(ClientFileName)-3, 4)) = '.doc' THEN Filter := 'Microsoft Word (*.doc)|*.doc';
+      IF STRLEN(ClientFileName) >= 5 THEN IF LOWERCASE(COPYSTR(ClientFileName, STRLEN(ClientFileName)-4, 5)) = '.xlsx' THEN Filter := 'Microsoft Excel (*.xlsx)|*.xlsx';
+      DOWNLOADFROMSTREAM(ServerInStream,'Export','',Filter,ClientFileName);
+    END;
+    
+    EVENT ReportForNav@5000::OnMessage@5016(Operation : Text;Parameter : Text;ParameterNo : Integer);
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      CASE Operation OF
+        'Open'    : ReportForNavDialog.OPEN(Parameter);
+        'Update'  : ReportForNavDialog.UPDATE(ParameterNo,Parameter);
+        'Close'   : ReportForNavDialog.CLOSE();
+        'Message' : MESSAGE(Parameter);
+        'Error'   : ERROR(Parameter);
+      END;
+    END;
+
+    EVENT ReportForNav@5000::OnPrintPreview@5011(InStream : DotNet "'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.IO.Stream"; Preview : Boolean);
+    VAR
+      ClientFileName : Text[255];
+    BEGIN
+      // This code is created automatically every time Reports ForNAV saves the report.
+      // Do not modify this code.
+      CurrReport.LANGUAGE := SYSTEM.GLOBALLANGUAGE;
+      DOWNLOADFROMSTREAM(InStream, '', '<TEMP>', '', ClientFileName);
+      ReportForNavClient.PrintPreviewDialog(ClientFileName,ReportForNav.PrinterSettings.PrinterName,Preview);
+    END;
+
+    LOCAL PROCEDURE FillTempListTable@1();
+    VAR
+      TopCustomerOverview@1000 : Query 100;
+    BEGIN
+      WITH TopCustomerOverview DO BEGIN
+        SETFILTER(No, Args."Customer No.");
+        SETFILTER(Global_Dimension_1_Code, Args."Global Dimension 1 Code");
+        SETFILTER(Global_Dimension_2_Code, Args."Global Dimension 2 Code");
+        SETFILTER(Salesperson_Code, Args."Salesperson Code");
+        SETFILTER(Country_Region_Code, Args."Country/Region Code");
+        OPEN();
+        WHILE READ() DO BEGIN
+          List."Entry No" := List."Entry No" + 1;
+          List."No." := No;
+          List.Name := Name;
+          List."Sales (LCY)" := Sales_LCY;
+          List."Profit (LCY)" := Profit_LCY;
+          List."Country/Region Code" := Country_Region_Code;
+          List.City := City;
+          List."Global Dimension 1 Code" := Global_Dimension_1_Code;
+          List."Global Dimension 2 Code" := Global_Dimension_2_Code;
+          List."Salesperson Code" := Salesperson_Code;
+          List."Salesperson Name" := SalesPersonName;
+          List."Country Region Name" := CountryRegionName;
+          List.INSERT();
+        END;
+      END;
+    END;
+    BEGIN
+    {
+      Copyright (c) 2019 ForNAV ApS - All Rights Reserved
+      The intellectual work and technical concepts contained in this file are proprietary to ForNAV.
+      Unauthorized reverse engineering, distribution or copying of this file, parts hereof, or derived work, via any medium is strictly prohibited without written permission from ForNAV ApS.
+      This source code is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      
+                
+    }
+    END.
+  }
+  RDLDATA
+  {
+    <?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+  <Description>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</Description>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+      </Page>
+    </ReportSection>
+  </ReportSections>
+</Report>
+    END_OF_RDLDATA
+  }
+}
+
+
+

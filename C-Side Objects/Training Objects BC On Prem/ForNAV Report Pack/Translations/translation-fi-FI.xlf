@@ -1,0 +1,2397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fi-FI" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1167270799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV Setup</source>
+          <target>ForNAV asetukset</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Perusavain</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 2241665020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Region</source>
+          <target>Alue</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field Region - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 720583271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Report Type</source>
+          <target>VAT-raporttityyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field VAT Report Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 720583271 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multiple Lines,Always,Never</source>
+          <target>Useita koodeja,Aina,Ei koskaan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field VAT Report Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 3032803486 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inherit Language Code</source>
+          <target>Peri kielikoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field Inherit Language Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 3590198630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Preprinted Paper</source>
+          <target>Käytä Esipainettua paperia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field Use Preprinted Paper - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 1123305005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo</source>
+          <target>Logo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field Logo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 2929946409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Watermark</source>
+          <target>Asiakirjan vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field Document Watermark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 906336400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List Report Watermark</source>
+          <target>Raportin vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field List Report Watermark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 1128013310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Note</source>
+          <target>Maksuviittaus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field Payment Note - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Field 4128629149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Legal Conditions</source>
+          <target>Ehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Field Legal Conditions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1167270799 - Method 3771322014 - NamedType 4039144667" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to replace the current reports with the ForNAV reports?</source>
+          <target>Vuoi sostituire i rapporti correnti con i rapporti ForNAV?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Setup - Method ReplaceReportSelection - NamedType DoYouWantToQst</note>
+        </trans-unit>
+        <trans-unit id="Table 708921086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV Legal Cond. Translation</source>
+          <target>Ehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Legal Cond. Translation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 708921086 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Code</source>
+          <target>Kielikoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Legal Cond. Translation - Field Language Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 708921086 - Field 4128629149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Legal Conditions</source>
+          <target>Ehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Legal Cond. Translation - Field Legal Conditions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3682152881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Service</source>
+          <target>WWW-palvelu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Web Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 700933449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV Reports</source>
+          <target>ForNAV Raportti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 700933449 - Field 3702373668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category</source>
+          <target>Luokka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reports - Field Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 700933449 - Field 3702373668 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other,Sales,Purchase,Finance,Template,Example,Warehouse,Inventory</source>
+          <target>Myynti,Ostot,Finances,Sapluuna,Esimerkki,Fyysinen varastointi,Varasto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reports - Field Category - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 700933449 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target>Tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reports - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 700933449 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reports - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 789682158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace With Report</source>
+          <target>Korvata Raportin tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Report Replacement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 789682158 - Field 1272245069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report ID</source>
+          <target>Raportin tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Report Replacement - Field Report ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 789682158 - Field 1500924691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <target>Käyttäjä ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Report Replacement - Field User-ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 789682158 - Field 2247850105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Responsibility Center</source>
+          <target>Responsibility Center</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Report Replacement - Field Responsibility Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 789682158 - Field 1030843892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace With Report ID</source>
+          <target>Korvata Raportin tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Report Replacement - Field Replace-With Report ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 789682158 - Field 2730477966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Name</source>
+          <target>Raportin nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Report Replacement - Field Replace-With Report Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 4094940508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show by</source>
+          <target>Näyttöperuste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Show by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 4094940508 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Year,Budget</source>
+          <target>Edellinen vuosi,Budjetti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Show by - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 3181821009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change Actual</source>
+          <target>Nettomuutos, toteutunut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Net Change Actual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 3517865318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change Actual Last Year</source>
+          <target>Nettomuutos, toteutunut edellisenä vuonna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Net Change Actual Last Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 3596770713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <target>Ero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Variance in Changes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 1406167062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variance %</source>
+          <target>Vaihtelu-%</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field % Variance in Changes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 4018428147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance at Date Actual</source>
+          <target>Pvm:n saldo, toteutunut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Balance at Date Actual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 3514553198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance at Date Act. Last Year</source>
+          <target>Pvm:n saldo, toteutunut edellisenä vuonna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Balance at Date Act. Last Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 2689505569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <target>Ero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Variance in Balances - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 1693066838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variance %</source>
+          <target>Vaihtelu-%</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field % Variance in Balances - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 2410854689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rounding Factor</source>
+          <target>Pyöristyskerroin</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Rounding Factor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 2410854689 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None,1,1000,1000000</source>
+          <target>Ei,1,1000,1000000</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Rounding Factor - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 64037774 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Accounts with all zero Amounts</source>
+          <target>Ohita tilit kaikkiin nollaan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Skip Accounts with all zero - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 1603302481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Amounts in LCY</source>
+          <target>Kaikki summat PVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field All Amounts in LCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1929428673 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Valuutan koodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance Args. - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2793580090 - Field 3181821009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change Actual</source>
+          <target>Nettomuutos, toteutunut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance - Field Net Change Actual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2793580090 - Field 3517865318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change Actual Last Year</source>
+          <target>Nettomuutos, toteutunut edellisenä vuonna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance - Field Net Change Actual Last Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2793580090 - Field 3596770713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <target>Ero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance - Field Variance in Changes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2793580090 - Field 1406167062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variance %</source>
+          <target>Vaihtelu-%</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance - Field % Variance in Changes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2793580090 - Field 4018428147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance at Date Actual</source>
+          <target>Pvm:n saldo, toteutunut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance - Field Balance at Date Actual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2793580090 - Field 3514553198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance at Date Act. Last Year</source>
+          <target>Pvm:n saldo, toteutunut edellisenä vuonna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance - Field Balance at Date Act. Last Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2793580090 - Field 2689505569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <target>Ero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance - Field Variance in Balances - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2793580090 - Field 1693066838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variance %</source>
+          <target>Vaihtelu-%</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Trial Balance - Field % Variance in Balances - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 300635582 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reconcile AP to GL Buf. - Field Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 300635582 - Field 2588032914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reconcile AP to GL Buf. - Field Account Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 300635582 - Field 2796346326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit Amount</source>
+          <target>Debet-summa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reconcile AP to GL Buf. - Field Debit Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 300635582 - Field 2556136339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Amount</source>
+          <target>Kredit-summa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Reconcile AP to GL Buf. - Field Credit Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 655000906 - Field 4257147338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consider Discount</source>
+          <target>Harkitse alennusta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Vendor Payments Args. - Field Consider Discount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 655000906 - Field 3724343034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Date</source>
+          <target>Maksupvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Vendor Payments Args. - Field Payment Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 655000906 - Field 809358940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date Filter</source>
+          <target>Eräpäiväsuodatus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Vendor Payments Args. - Field Due Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 655000906 - Field 258405725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Discount Date</source>
+          <target>Maksualennuksen päivämäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Vendor Payments Args. - Field Payment Discount Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 655000906 - Field 1876732849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Amounts in LCY</source>
+          <target>Tulosta summat PVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Vendor Payments Args. - Field Print Amounts in LCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 655000906 - Field 1527563463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <target>Ulkoisen asiakirjan nro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Vendor Payments Args. - Field External Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 655000906 - Field 1028436379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount (LCY)</source>
+          <target>Summa yhteensä (PVA)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Vendor Payments Args. - Field Total Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 945359891 - Field 1786884471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Person</source>
+          <target>Uusi sivu per henkilö</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Salesperson-Comm. Args. - Field New Page per Person - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 1876732849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Amounts in LCY</source>
+          <target>Tulosta summat PVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Print Amounts in LCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 458406397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Lopetuspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 2035075319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aging Band by</source>
+          <target>Erääntymisjakso per</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Aging By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 2035075319 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date,Posting Date,Document Date</source>
+          <target>Eräpäivä,Kirjauspvm.,Asiakirjan pvm.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Aging By - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 1446865707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target>Jakson pituus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Period Length - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 2598471525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Details</source>
+          <target>Tulosta yksityiskohdat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Print Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 3514640316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Heading Type</source>
+          <target>Otsikon tyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Heading Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 4062667992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page Per Customer</source>
+          <target>Uusi sivu asiakkaittain</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field New Page Per Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 2082466019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start Date</source>
+          <target>Jakson aloituspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Period Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Valuutan koodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Field 1278776511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Count</source>
+          <target>Sarakemäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Field Column Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 1740325350 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Date Formula %1 cannot be used</source>
+          <target>La Formula data %1 non può essere utilizzata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CalcDates - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 3991716953 - NamedType 3369616619" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Due</source>
+          <target>Non dovuto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CreateHeadings - NamedType NotDueTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 3991716953 - NamedType 457893867" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Before</source>
+          <target>Prima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CreateHeadings - NamedType BeforeTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 3991716953 - NamedType 2072192433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target>giorni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CreateHeadings - NamedType DaysTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2957042042 - Method 3991716953 - NamedType 158957122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>More than</source>
+          <target>Più di</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aged Accounts Args. - Method CreateHeadings - NamedType MoreThanTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Tapahtumanro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 3699788827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Type</source>
+          <target>Tilityyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Account Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 2588032914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Account Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 3246865201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Limit (LCY)</source>
+          <target>Luottoraja (PVA)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Credit Limit (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Valuutan koodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Asiakirjatyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Asiakirjan nro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 1527563463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <target>Ulkoisen asiakirjan nro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field External Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Asiakirjan pvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Kirjauspvm.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <target>Eräpäivä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Summa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 592951229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <target>Summa (PVA)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <target>Saldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2584520688 - Field 2178647059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance (LCY)</source>
+          <target>Saldo (PVA)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Aging Buffer - Field Balance (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2705059506 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Valuutan koodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statistics Args. - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2705059506 - Field 502423214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target>Laskut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statistics Args. - Field Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2705059506 - Field 1180535208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memos</source>
+          <target>Hyvityslaskujen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statistics Args. - Field Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2705059506 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Asiakasnro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statistics Args. - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3614543990 - Field 2565971985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Date</source>
+          <target>Pvm:ään asti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. to G/L Arguments - Field To Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3614543990 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Sijaintikoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. to G/L Arguments - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3614543990 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Varianttikoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. to G/L Arguments - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3614543990 - Field 556262972 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amounts in Add. Currency</source>
+          <target>Summat lisävaluuttana</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. to G/L Arguments - Field Amounts in Add. Currency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Nimikenro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Varianttikoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Sijaintikoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 1539106347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Value</source>
+          <target>Varaston arvo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Inventory Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 3830323169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Received Not Invoiced</source>
+          <target>Vastaanotto toimitukset</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Received Not Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 3226323109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipped Not Invoiced</source>
+          <target>Laskuttamattomat toimitukset</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Shipped Not Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 3610105001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Expected Cost</source>
+          <target>Oletettu kustannus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Total Expected Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 619471218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Received Not Invoiced (Posted)</source>
+          <target>Vastaanotto toimitukset (Kirjattu)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Received Not Invoiced Posted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Field 2664364502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipped Not Invoiced (Posted)</source>
+          <target>Laskuttamattomat toimitukset (Kirjattu)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Field Shipped Not Invoiced Posted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1239100097 - Method 3439578032 - NamedType 112908608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wrong Function Call</source>
+          <target>Chiamata di funzione errata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inventory to G/L Buffer - Method CreateValues - NamedType WrongCallErr</note>
+        </trans-unit>
+        <trans-unit id="Table 571291617 - Field 460889064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Aloituspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. Valuation Args. - Field Starting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571291617 - Field 458406397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Lopetuspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. Valuation Args. - Field Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571291617 - Field 3276221047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected Cost</source>
+          <target>Oletettu kustannus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. Valuation Args. - Field Expected Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571291617 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Määrä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. Valuation Args. - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571291617 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target>Arvo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. Valuation Args. - Field Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571291617 - Field 2520302932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Increases (LCY)</source>
+          <target>Lisääntyy (PVA)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. Valuation Args. - Field Increases (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571291617 - Field 4209424474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decreases (LCY)</source>
+          <target>Vähennys (PVA)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. Valuation Args. - Field Decreases (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 571291617 - Field 2891103215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Posted to G/L</source>
+          <target>KP:oon kirjattu kustannus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Inv. Valuation Args. - Field Cost Posted to G/L - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1111094286 - Field 2598471525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Details</source>
+          <target>Tulosta yksityiskohdat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Cust./Item Stat. Args. - Field Print Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1111094286 - Field 4062667992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Customer</source>
+          <target>Uusi sivu asiakasta kohti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Cust./Item Stat. Args. - Field New Page Per Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Aloituspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 458406397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Lopetuspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Asiakirjan pvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 2144492299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include All Customers with a Balance</source>
+          <target>Sisällytä kaikki asiakkaat, joilla on saldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Print All Having Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 1162003799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include All Customers with Ledger Entries</source>
+          <target>Sisällytä kaikki asiakkaat, joilla on tapahtumakirjauksia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Print All Having Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 2379063813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Overdue Entries</source>
+          <target>Näytä erääntyneet tapahtumat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Show Overdue Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 413984437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Aging Band</source>
+          <target>Sis. erääntymisjakso</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Include Aging Band - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target>Pvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 3192175264 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date,Posting Date</source>
+          <target>Eräpäivä,Kirjauspvm.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Date - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 756215321 - Field 1446865707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target>Jakson pituus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Statement Arguments - Field Period Length - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 198433328 - Field 3389917677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Name 2</source>
+          <target>Nimi 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check - Field Pay-to Name 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 198433328 - Field 3196232876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Address</source>
+          <target>Osoite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check - Field Pay-to Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 198433328 - Field 3516152766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Address 2</source>
+          <target>Osoite 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check - Field Pay-to Address 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 198433328 - Field 3234253787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to City</source>
+          <target>Paikkakunta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check - Field Pay-to City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 198433328 - Field 1168556525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Post Code</source>
+          <target>Postinro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check - Field Pay-to Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 198433328 - Field 1727270656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to County</source>
+          <target>Lääni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check - Field Pay-to County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 198433328 - Field 4079742056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Country/Region Code</source>
+          <target>Maa-/aluekoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check - Field Pay-to Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 3389917677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Name 2</source>
+          <target>Nimi 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Pay-to Name 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 3196232876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Address</source>
+          <target>Osoite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Pay-to Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 3516152766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Address 2</source>
+          <target>Osoite 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Pay-to Address 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 3234253787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to City</source>
+          <target>Paikkakunta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Pay-to City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 1168556525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Post Code</source>
+          <target>Postinro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Pay-to Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 1727270656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to County</source>
+          <target>Lääni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Pay-to County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 4079742056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pay-to Country/Region Code</source>
+          <target>Maa-/aluekoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Pay-to Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 966287263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name 2</source>
+          <target>Nimi 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Name 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <target>Osoite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 2306852000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address 2</source>
+          <target>Osoite 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Address 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <target>Paikkakunta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Code</source>
+          <target>Postinro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 499448942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>County</source>
+          <target>Lääni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3566196517 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Maa-/aluekoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Model - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1605231677 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Perusavain</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Check Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3679212673 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Perusavain</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Captions - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3679212673 - Field 2937233469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <target>Yksikköhinta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Captions - Field Unit Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3679212673 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Captions - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1762469930 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Valuutan koodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV VAT Currency Buffer - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1762469930 - Field 2324056710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Factor</source>
+          <target>Valuuttakerroin</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV VAT Currency Buffer - Field Currency Factor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1762469930 - Field 904390814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Base Amount</source>
+          <target>ALV-perusteen summa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV VAT Currency Buffer - Field VAT Base Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1762469930 - Field 1108276017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <target>ALV-summa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV VAT Currency Buffer - Field VAT Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1762469930 - Field 1246077090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <target>ALV-%</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV VAT Currency Buffer - Field VAT % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1762469930 - Field 2534656220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Identifier</source>
+          <target>ALV -tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV VAT Currency Buffer - Field VAT Identifier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1341233345 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Perusavain</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ForNAV Sales Tax Buffer - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2072205084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order</source>
+          <target>Tilaus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Order Confirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2072205084 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Order Confirmation - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2072205084 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Order Confirmation - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2079307068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <target>Lasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Sales Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2079307068 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Sales Invoice - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2079307068 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Sales Invoice - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3964459154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memo</source>
+          <target>Hyvityslasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3964459154 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Credit Memo - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3964459154 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Credit Memo - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 401428230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Shipment</source>
+          <target>Myyntitoimitus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 401428230 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Shipment - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 401428230 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Shipment - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4158316437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote</source>
+          <target>Myyntitarjous</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Sales Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4158316437 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Sales Quote - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4158316437 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Sales Quote - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2973733225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Shipment</source>
+          <target>Varaston lähetys</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Warehouse Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2973733225 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Warehouse Shipment - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 860437149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Receipt</source>
+          <target>Varaston vastaanottaminen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Warehouse Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 860437149 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Warehouse Receipt - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1431045554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order</source>
+          <target>Tilaus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Order Confirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1431045554 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Order Confirmation - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1431045554 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Order Confirmation - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3503540626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <target>Lasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Sales Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3503540626 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Sales Invoice - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3503540626 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Sales Invoice - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1747904700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memo</source>
+          <target>Hyvityslasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1747904700 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Credit Memo - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1747904700 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Credit Memo - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1372739351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote</source>
+          <target>Myyntitarjous</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Sales Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1372739351 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Sales Quote - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1372739351 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Sales Quote - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 17828800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order</source>
+          <target>Ostotilaus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 17828800 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Order - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 17828800 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Order - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1567006493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Invoice</source>
+          <target>Ostolasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1567006493 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Invoice - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1567006493 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Invoice - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1871960089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Credit Memo</source>
+          <target>Ostohyvityslasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Cr. Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1871960089 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Cr. Memo - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1871960089 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Cr. Memo - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3095218676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Quote</source>
+          <target>Ostotarjous</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3095218676 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Quote - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3095218676 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV VAT Purchase Quote - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4164736510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order</source>
+          <target>Ostotilaus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4164736510 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Order - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4164736510 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Order - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4131598047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Invoice</source>
+          <target>Ostolasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4131598047 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Invoice - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4131598047 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Invoice - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4234003059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Quote</source>
+          <target>Ostotarjous</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Cr. Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4234003059 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Cr. Memo - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4234003059 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Cr. Memo - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1484389898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Quote</source>
+          <target>Ostotarjous</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1484389898 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Quote - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1484389898 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Quote - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2286217242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Top 10 List</source>
+          <target>Asiakkaat - 10 pääasiakasta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Customer Top 10 List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2286217242 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Customer Top 10 List - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2286217242 - Control 246488296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Määrä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Customer Top 10 List - Control NoOfRecordsToPrint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3089599890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Top 10 List</source>
+          <target>10 päätoimittajaa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Top 10 List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3089599890 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Top 10 List - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3089599890 - Control 246488296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Määrä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Top 10 List - Control NoOfRecordsToPrint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trial Balance</source>
+          <target>Alustava saldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 1309757374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show by</source>
+          <target>Näyttöperuste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control ShowComaprison - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 3068478439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Option</source>
+          <target>Sarakevaihtoehto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control "Column Option" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 2731855250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change Actual</source>
+          <target>Nettomuutos, toteutunut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."Net Change Actual" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 2103893917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change Actual Last Year</source>
+          <target>Nettomuutos, toteutunut edellisenä vuonna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."Net Change Actual Last Year" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 1643225674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <target>Ero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."Variance in Changes" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 900891613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variance %</source>
+          <target>Vaihtelu-%</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."% Variance in Changes" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 3407590492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance at Date Actual</source>
+          <target>Pvm:n saldo, toteutunut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."Balance at Date Actual" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 2480946909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance at Date Act. Last Year</source>
+          <target>Pvm:n saldo, toteutunut edellisenä vuonna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."Balance at Date Act. Last Year" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 2043601882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <target>Ero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."Variance in Balances" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 2248415669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variance %</source>
+          <target>Vaihtelu-%</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."% Variance in Balances" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 1878332738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rounding Factor</source>
+          <target>Pyöristyskerroin</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."Rounding Factor" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 2395720117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Accounts with all zero Amounts</source>
+          <target>Ohita tilit kaikkiin nollaan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."Skip Accounts with all zero" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2793580090 - Control 2984365130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Amounts in LCY</source>
+          <target>Kaikki summat PVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Trial Balance - Control Args."All Amounts in LCY" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 930318959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconcile AP to GL</source>
+          <target>Yhdistä Ostaa ja Pääkirjasto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Reconcile A/P to G/L - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 930318959 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Reconcile A/P to G/L - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2250494713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Payments</source>
+          <target>Asiakas Maksut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Customer Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2250494713 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Customer Payments - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1701963281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Payments</source>
+          <target>Maksut (Toimittajan)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1701963281 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Payments - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1701963281 - Control 4250709058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Date</source>
+          <target>Maksupvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Payments - Control PaymentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1701963281 - Control 313682892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date Filter</source>
+          <target>Eräpäiväsuodatus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Payments - Control DueDateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1701963281 - Control 885001825 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consider Discount</source>
+          <target>Harkitse alennusta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Payments - Control TakePaymentDiscounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1701963281 - Control 3303599541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Discount Date</source>
+          <target>Maksualennuksen päivämäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Payments - Control LastDiscDateToTake - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1701963281 - Control 1309211307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Amounts in LCY</source>
+          <target>Tulosta summat PVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Payments - Control UseLocalCurrency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1701963281 - Control 1052560676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <target>Ulkoisen asiakirjan nro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Vendor Payments - Control UseExternalDocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4052260777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Commission</source>
+          <target>Myyjän provisio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Salesperson-Commission - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4052260777 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Salesperson-Commission - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4052260777 - Control 2367200503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Person</source>
+          <target>Uusi sivu per henkilö</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Salesperson-Commission - Control NewPagePerPerson - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aged Accounts Receivables</source>
+          <target>Myyntisaatavien tilanne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Control 2060407144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Lopetuspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Control AgedAsOf - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Control 3438973743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aging by</source>
+          <target>Tilanne per</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Control Agingby - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Control 2740290379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target>Jakson pituus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Control PeriodLength - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Control 4096492506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Amounts in LCY</source>
+          <target>Kaikki summat PVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Control AmountsinLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Control 568987109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Details</source>
+          <target>Tulosta yksityiskohdat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Control PrintDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Control 336339332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Heading Type</source>
+          <target>Otsikon tyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Control HeadingType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1150163259 - Control 2035961037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Customer</source>
+          <target>Uusi sivu asiakasta kohti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Receivbl. - Control perCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aged Accounts Payables</source>
+          <target>Myyntisaatavien tilanne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Control 2060407144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Lopetuspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Control AgedAsOf - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Control 3438973743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aging by</source>
+          <target>Tilanne per</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Control Agingby - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Control 2740290379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target>Jakson pituus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Control PeriodLength - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Control 4096492506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Amounts in LCY</source>
+          <target>Kaikki summat PVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Control AmountsinLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Control 568987109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Details</source>
+          <target>Tulosta yksityiskohdat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Control PrintDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Control 336339332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Heading Type</source>
+          <target>Otsikon tyyppi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Control HeadingType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2925677242 - Control 2035961037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Customer</source>
+          <target>Uusi sivu asiakasta kohti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Aged Accounts Payables - Control perCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 125937121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Statistics</source>
+          <target>Myyntitilastot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 125937121 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Statistics - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 125937121 - Control 366713437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <target>Näytä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Statistics - Control Show - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 125937121 - Control 502423214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target>Laskut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Statistics - Control Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 125937121 - Control 3002359560 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memos</source>
+          <target>Hyvityslaskujen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Statistics - Control CreditMemos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 125937121 - Control 3984071296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group By</source>
+          <target>Ryhmittelyperuste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Statistics - Control GroupBy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 125937121 - Control 3689535207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Asiakasnro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Statistics - Control CustomerNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 7091440 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Statistics</source>
+          <target>Ostotilastot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 7091440 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Statistics - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 7091440 - Control 366713437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <target>Näytä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Statistics - Control Show - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 7091440 - Control 502423214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoices</source>
+          <target>Laskut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Statistics - Control Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 7091440 - Control 3002359560 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memos</source>
+          <target>Hyvityslaskujen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Statistics - Control CreditMemos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 7091440 - Control 3984071296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group By</source>
+          <target>Ryhmittelyperuste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Statistics - Control GroupBy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 7091440 - Control 1607295407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <target>Asiakasnro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Statistics - Control VendorNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1004949240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory to G/L Reconcile</source>
+          <target>Varasto kenraali Reconcile</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inv. to G/L Reconcile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1004949240 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inv. to G/L Reconcile - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1004949240 - Control 3144493105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Date</source>
+          <target>Pvm:ään asti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inv. to G/L Reconcile - Control AsOfDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1004949240 - Control 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target>Erittely</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inv. to G/L Reconcile - Control Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1004949240 - Control 938446886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Varianttikoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inv. to G/L Reconcile - Control BreakdownByVariants - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1004949240 - Control 1166120045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Sijaintikoodi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inv. to G/L Reconcile - Control BreakdownByLocation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1004949240 - Control 2454743061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amounts in Add. Currency</source>
+          <target>Summat lisävaluuttana</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inv. to G/L Reconcile - Control UseAdditionalReportingCurrency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1898936701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Valuation</source>
+          <target>Varaston arviointi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inventory Valuation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1898936701 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inventory Valuation - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1898936701 - Control 543275552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Aloituspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inventory Valuation - Control StartingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1898936701 - Control 3592094765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Lopetuspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inventory Valuation - Control EndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1898936701 - Control 366713437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <target>Näytä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inventory Valuation - Control Show - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1898936701 - Control 198878435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected Cost</source>
+          <target>Oletettu kustannus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Inventory Valuation - Control IncludeExpectedCost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1975169670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer/Item Statistics</source>
+          <target>Asiakas/Nimikkeen tilastot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Cust./Item Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1975169670 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Cust./Item Statistics - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1975169670 - Control 568987109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Details</source>
+          <target>Tulosta yksityiskohdat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Cust./Item Statistics - Control PrintDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1975169670 - Control 3582862904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Customer</source>
+          <target>Uusi sivu asiakasta kohti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Cust./Item Statistics - Control NewPagePerCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1975169670 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer/Item Statistics</source>
+          <target>Asiakas/Nimikkeen tilastot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Cust./Item Statistics - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 1975169670 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Name</source>
+          <target>Raportin nimi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Cust./Item Statistics - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 1975169670 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <target>Käyttäjä ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Cust./Item Statistics - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement</source>
+          <target>Tiliote</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 1594611733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Asiakirjan pvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control DocumentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 3605153064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <target>Aloituspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control StartDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 845401037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Lopetuspvm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control EndDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 120518645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Overdue Entries</source>
+          <target>Näytä erääntyneet tapahtumat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control ShowOverdueEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 3349558288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include</source>
+          <target>Sisällytä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control Include - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 2059574099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include All Customers with a Balance</source>
+          <target>Sisällytä kaikki asiakkaat, joilla on saldo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control IncludeAllCustomerswithLE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 686806962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include All Customers with Ledger Entries</source>
+          <target>Sisällytä kaikki asiakkaat, joilla on tapahtumakirjauksia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control IncludeAllCustomerswithBalance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 3170913656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aging Band by</source>
+          <target>Erääntymisjakso per</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control "Aging Band by" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 4178264437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Aging Band</source>
+          <target>Sis. erääntymisjakso</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control IncludeAgingBand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 4278445754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target>Jakson pituus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control AgingBandPeriodLengt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 1031320896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aging Band by</source>
+          <target>Erääntymisjakso per</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control AgingBandby - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4182029257 - Control 3039415211 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print,Preview,Word,PDF,Email,XML</source>
+          <target>Print,Esikatselu,Word,PDF,Email,XML</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Statement - Control ReportOutput - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 1546679080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder</source>
+          <target>Muistutus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Reminder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1546679080 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Reminder - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1557927838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder Test</source>
+          <target>Muistutus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Reminder Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1557927838 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Reminder Test - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 578207526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finance Charge Memo</source>
+          <target>Viivästyskululasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Finance Charge Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 578207526 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Finance Charge Memo - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1460007540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finance Charge Memo Test</source>
+          <target>Viivästyskululasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Finance Charge Memo T. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1460007540 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Finance Charge Memo T. - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1308895285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Variants</source>
+          <target>Kohteen vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Item Variants - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1308895285 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Item Variants - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4135087462 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV US Check - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4177824963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <target>Lasku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV API Example VAT Curr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4177824963 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV API Example VAT Curr. - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4177824963 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV API Example VAT Curr. - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 423199654 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Templ. - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 423199654 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Tax Purchase Templ. - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1004503259 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Templ. Sales Tax - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2125648968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder Template</source>
+          <target>Muistutus Sapluuna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Reminder Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2125648968 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Reminder Template - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1880360736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template Landscape</source>
+          <target>Malli vaakasuora</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Template - Landscape - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1880360736 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Template - Landscape - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2952881886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template</source>
+          <target>Malli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2952881886 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Template - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3513405475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Template</source>
+          <target>Ostomalli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3513405475 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Template - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3513405475 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Purchase Template - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2311616886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Template</source>
+          <target>Myyntimalli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2311616886 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Vaihtoehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Template - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2311616886 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Kopioiden lukumäärä</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ForNAV Sales Template - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 192864614 - Method 3884954611 - NamedType 1786305520" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to setup ForNAV with default values?</source>
+          <target>Vuoi impostare ForNAV con valori predefiniti?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ForNAV First Time Setup - Method AskForDefault - NamedType SetDefaultsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2478261208 - Method 1348281459 - NamedType 788912332" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV is installed but not setup. Do you want to do this now?</source>
+          <target>ForNAV è installato ma non configurato. Vuoi farlo ora?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ForNAV Notifications - Method ShowSetupNotification - NamedType ForNAVNotSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2478261208 - Method 1348281459 - NamedType 1517371649" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target>Sì</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ForNAV Notifications - Method ShowSetupNotification - NamedType Yes</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2478261208 - Method 1348281459 - NamedType 2907186646" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No, and please don't remind me again.</source>
+          <target>No, e per favore non chiedermelo più.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ForNAV Notifications - Method ShowSetupNotification - NamedType NoAndDontAskAgain</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV Setup</source>
+          <target>ForNAV asetukset</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Yleinen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Control 1925880366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Setup</source>
+          <target>Veroasetukset</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Control Tax Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Control 1821279055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text</source>
+          <target>Teksti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Control Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Control 1123305005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo</source>
+          <target>Logo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Control Logo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Control 2852575454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo</source>
+          <target>Logo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Control "Logo File Name" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Control 3044716762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Watermark</source>
+          <target>Asiakirjan vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Control "Document Watermark File Name" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Control 1569189798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List Report Watermark</source>
+          <target>Raportin vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Control "List Report Watermark File N." - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 1011595396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Watermark</source>
+          <target>Vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action Watermark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 296489136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download Watermark</source>
+          <target>Vesileima ladata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DownloadWatermark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 2477294019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target>Poistaa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action Delete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 637002043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Watermark</source>
+          <target>Asiakirjan vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DeleteDocWatermark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 2790300501 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List Report Watermark</source>
+          <target>Raportin vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DeleteListWatermark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 1579027470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo</source>
+          <target>Logo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DeleteLogo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 3664323899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace Report Selections</source>
+          <target>Korvata Raporttivalinnat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action ReplaceReports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 1029578827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Service</source>
+          <target>WWW-palvelu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action CreateWebservice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 3379441404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Template</source>
+          <target>Malli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action Template - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 4194114215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design General Template (Portrait)</source>
+          <target>Suunnittelupohjamalli (muotokuva)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DesignTemplatePortrait - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 930901899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design General Template (Landscape)</source>
+          <target>Suunnittelumuoto (maisema)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DesignTemplateLandscape - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 1413344910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design Sales Template</source>
+          <target>Suunnittelumalli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DesignSalesTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 3998681811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design Purchase Template</source>
+          <target>Mallin ostomalli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DesignPurchaseTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 3273304336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Design Reminder Template</source>
+          <target>Design muistutusmalli</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action DesignReminderTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1167270799 - Action 2653012956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translations</source>
+          <target>Käännös</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup - Action Translations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 708921086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV Legal Cond. Translation</source>
+          <target>Ehdot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Legal Cond. Translation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 700933449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV Reports</source>
+          <target>ForNAV Raportti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 700933449 - Action 3851712227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run</source>
+          <target>Run</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Reports - Action Run - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV Setup</source>
+          <target>ForNAV asetukset</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Control 956724080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to ForNAV Setup</source>
+          <target>Tervetuloa ForNAV-asennusohjelmaan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Control "Welcome to ForNAV Setup" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Control 1518020964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Let's go!</source>
+          <target>Aloitetaan!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Control "Let's go!" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Control 3674333203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>That's it!</source>
+          <target>Se on se!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Control "That's it!" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Control 3551299832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Layout</source>
+          <target>Asettelu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Control CheckLayout - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Control 3664323899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace Report Selections</source>
+          <target>Korvata Raporttivalinnat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Control ReplaceReports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Action 2438272767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target>Takaisin</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Action ActionBack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Action 914282563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target>Seuraava</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Action ActionNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4280622562 - Action 3259912055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <target>Täydellinen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Setup Wizard - Action ActionFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3044742314 - Control 3871047161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Fields Webservice - Control "No." - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4117874853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForNAV Replace With Report</source>
+          <target>Korvata Raportin tunnus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Replace Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4117874853 - Action 3664323899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace Report Selections</source>
+          <target>Korvata Raporttivalinnat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Replace Reports - Action ReplaceReports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4117874853 - Action 3732224266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <target>Test</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Replace Reports - Action Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1605231677 - Control 1100053691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Watermark</source>
+          <target>Vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Check Setup - Control "Watermark File Name" - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1605231677 - Action 4145044859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Watermark</source>
+          <target>Vesileima</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Check Setup - Action DeleteWatermark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1605231677 - Action 2653012956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translations</source>
+          <target>Käännös</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ForNAV Check Setup - Action Translations - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

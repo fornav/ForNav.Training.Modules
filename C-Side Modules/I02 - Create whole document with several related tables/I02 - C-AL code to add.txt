@@ -1,0 +1,26 @@
+{ 1   ;    ;DataItem;Header              ;
+            DataItemTable=Table112;
+            DataItemTableView=SORTING(No.);
+            OnAfterGetRecord=BEGIN
+                               GetVatAmountLines;
+                               GetVATClauses;
+                             END;
+
+            ReqFilterFields=No.;
+            CalcFields=Amount,Amount Including VAT }
+
+LOCAL PROCEDURE GetVATClauses@1000000001();
+VAR
+  ForNAVGetVatClause@1000000000 : Codeunit 70002;
+BEGIN
+  VATClause.DELETEALL;
+  ForNAVGetVatClause.GetVATClauses(VATAmountLine, VATClause, Header."Language Code");
+END;
+
+LOCAL PROCEDURE GetVatAmountLines@1000000000();
+VAR
+  ForNAVGetVatAmountLines@1000000000 : Codeunit 70001;
+BEGIN
+  VATAmountLine.DELETEALL;
+  ForNAVGetVatAmountLines.GetVatAmountLines(Header, VATAmountLine);
+END;

@@ -1,0 +1,33 @@
+$folder = "Q:\OneDrive\Projects\ForNAV"
+
+Import-Module "C:\Program Files\Reports ForNAV\ForNav.Cmdlet.dll"
+
+Invoke-ReportsForNavConvert -ImportCaptions "Q:\ForNAV_PT_Translation.txt"`
+                            -TableDefinitions "$folder\NAV2018.txt" `
+                            -Path "C:\Users\markb\Release\Reports\ForNAV Standard Reports.txt" `
+                            -Destination "$folder\Captions\test.txt"
+
+Invoke-ReportsForNavConvert -TableDefinitions "$folder\NAV2017.txt" `
+                            -FindReplace "$folder\Convert\Master.txt" `
+                            -Path "$folder\Convert\SalesMaster.txt" `
+                            -Destination "$folder\Convert\PurchaseMaster.txt"
+
+Invoke-ReportsForNavConvert -TableDefinitions "$folder\NAV2017.txt" `
+                            -FindReplace "$folder\Convert\SalesInvoice.txt" `
+                            -Path "$folder\Convert\SalesMaster.txt" `
+                            -Destination "$folder\Convert\SalesInvoice.txt"
+
+Invoke-ReportsForNavConvert -TableDefinitions "$folder\NAV2017.txt" `
+                            -FindReplace "Q:\ForNAV\Add-On\Sales Quote - to - Purchase Quote.txt" `
+                            -Path "Q:\ForNAV\Add-On\SalesQuote.txt" `
+                            -Destination "Q:\ForNAV\Add-On\PurchaseQuote.txt"
+
+Invoke-ReportsForNavConvert -TableDefinitions "$folder\NAV2017.txt" `
+                            -FindReplace "Q:\ForNAV\Add-On\Sales Credit Memo - to - Purchase Credit Memo.txt" `
+                            -Path "Q:\ForNAV\Add-On\SalesCreditMemo.txt" `
+                            -Destination "Q:\ForNAV\Add-On\PurchaseCreditMemo.txt"
+
+Invoke-ReportsForNavConvert -TableDefinitions "Q:\ForNAV\NAV2017.txt" `
+                            -FindReplace "Q:\ForNAV\Add-On\RemoveMasterSection.txt" `
+                            -Path "Q:\ForNAV\Add-On\SalesInvoice.txt" `
+                            -Destination "Q:\ForNAV\Add-On\SalesInvoice.txt"

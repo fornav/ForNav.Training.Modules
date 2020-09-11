@@ -1,0 +1,38 @@
+OBJECT Table 87000 Translations
+{
+  OBJECT-PROPERTIES
+  {
+    Date=08-02-19;
+    Time=10:06:05;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Entry No.           ;Integer       ;DataClassification=ToBeClassified }
+    { 20  ;   ;My Label            ;Integer       ;DataClassification=ToBeClassified;
+                                                   CaptionML=[DEU=Mein label;
+                                                              ENU=My Label] }
+    { 30  ;   ;No                  ;Integer       ;DataClassification=ToBeClassified;
+                                                   CaptionML=[DEU=Nr.;
+                                                              ENU=No.;
+                                                              NLD=Nr.] }
+  }
+  KEYS
+  {
+    {    ;Entry No.                               ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
