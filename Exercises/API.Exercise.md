@@ -48,6 +48,34 @@ Use the ForNAV Guide for [SaaS]() or [On Premise]()
 	end;
 ```
 
+### Load multiple watermarks
+```AL
+	trigger OnAfterGetRecord();
+    begin
+      if "Currency Code" = 'ISK' then begin
+        ReportForNav.Watermark.Text.Text := '';
+        LoadWatermark();
+      end else
+        ReportForNav.Watermark.Text.Text := 'Hello';
+    end;
+
+	local procedure LoadWatermark()
+	var
+		ForNAVSetup: Record "ForNAV Setup";
+		OutStream: OutStream;
+	begin
+		with ForNAVSetup do begin
+			Get;
+			CalcFields("Document Watermark");
+			if not "Document Watermark".Hasvalue then
+				exit;
+
+			ForNavSetup."Document Watermark".CreateOutstream(OutStream);
+			ReportForNav.Watermark.Image.Load(OutStream);
+		end;
+	end;
+```
+
 ### AppendPdf function
 
 ```AL
