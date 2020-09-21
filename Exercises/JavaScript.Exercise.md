@@ -84,6 +84,17 @@ Add a new DataItem, set the source table as Integer and set MaxIteration on 1. A
 ParseComments(comments);
 ```
 
+**Filter on empty or non empty values**
+
+```javascript
+// Filter empty value (double quote, single quote, single quote, double quote)
+SalesCommentLine.SetFilter('Code', "''");
+
+// Filter Non empty value (double quote, <>, single quote, single quote, double quote)
+SalesCommentLine.SetFilter('Code', "<>''");
+```
+
+
 **Get the bank account based on the currency**
 
 Add the Bank Account table to the records and get the record based on the currency.
