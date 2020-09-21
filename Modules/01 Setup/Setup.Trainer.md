@@ -23,14 +23,15 @@ Download and install the ForNAV designer from the ForNAV website.
 This is a pretraining exercise. Email instructions to participants before training.
 
 ### Email
+
 Hello, thank you for joining the ForNAV training. To make sure we can start smoothly please prepare these things.
-*	Download and install the ForNAV designer version 5.2.0.1917
+*	Download and install the ForNAV designer
 *	Create a personal Sandbox/On Premise/Docker installation of Business Central 15/16. This needs a license that has the ForNAV granule added to it
 *	Setup the ForNAV designer
 *	Download and install the ForNAV Customizable Report Pack
 *	If you have not done so already please install Visual Studio Code
 
-Detailed instructions on how to do this are here: [SaaS](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCSaaS/) or [On Premise](https://renebrummel.github.io/ForNAVGuide/#/ForNAVForBCOnPrem/)
+Detailed instructions on how to do this are here: [SaaS](https://fornav.github.io/ForNav.Guide/#/ForNAVForBCSaaS/) or [On Premise](https://fornav.github.io/ForNav.Guide/#/ForNAVForBCOnPrem/)
 
 If you have any questions on this setup or about the training in general please let me know.
 
