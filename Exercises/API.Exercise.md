@@ -76,6 +76,45 @@ Use the ForNAV Guide for [SaaS]() or [On Premise]()
 	end;
 ```
 
+### Load a different watermark for the second page
+
+```AL
+  local procedure OnPreSectionHeader_DocumentHeader(var Header: Record "Sales Invoice Header");
+  begin
+      if ReportForNav.PageNo = 1 then
+          LoadWatermark(false)
+      else
+          LoadWatermark(true);
+  end;
+
+  local procedure LoadWatermark(IsList: Boolean)
+  var
+      ForNAVSetup: Record "ForNAV Setup";
+      OutStream: OutStream;
+  begin
+    with ForNAVSetup do begin
+        Get;
+        if not PrintLogo(ForNAVSetup) then
+            exit;
+        if IsList then begin
+            CalcFields("List Report Watermark");
+            if not "List Report Watermark".Hasvalue then
+              exit;
+
+            ForNavSetup."List Report Watermark".CreateOutstream(OutStream);
+        end else begin
+            CalcFields("Document Watermark");
+            if not "Document Watermark".Hasvalue then
+                exit;
+
+            ForNavSetup."Document Watermark".CreateOutstream(OutStream);
+        end;
+
+        ReportForNav.Watermark.Image.Load(OutStream);
+    end;
+  end;
+```
+
 ### AppendPdf function
 
 ```AL
