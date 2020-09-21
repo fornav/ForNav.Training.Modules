@@ -78,6 +78,8 @@ Use the ForNAV Guide for [SaaS]() or [On Premise]()
 
 ### Load a different watermark for the second page
 
+> You will need to enable the OnPreSection trigger on the document header in the ForNAV layout. That will create the OnPreSectionHeader trigger in the AL object.
+
 ```AL
   local procedure OnPreSectionHeader_DocumentHeader(var Header: Record "Sales Invoice Header");
   begin
