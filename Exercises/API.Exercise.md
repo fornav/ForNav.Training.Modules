@@ -117,6 +117,30 @@ Use the ForNAV Guide for [SaaS]() or [On Premise]()
   end;
 ```
 
+All of the watermark controls are:
+```AL
+ReportForNav.Watermark.Image.Visible Boolean
+ReportForNav.Watermark.Image.BackColor String
+ReportForNav.Watermark.Image.ForeColor String
+ReportForNav.Watermark.Image.Image Image
+
+ReportForNav.Watermark.Text.Font.Regular Boolean
+ReportForNav.Watermark.Text.Font.Bold Boolean
+ReportForNav.Watermark.Text.Font.Italic Boolean
+ReportForNav.Watermark.Text.Font.Strikeout Boolean
+ReportForNav.Watermark.Text.Font.Underline Boolean
+ReportForNav.Watermark.Text.Font.Name String
+ReportForNav.Watermark.Text.Font.Size Integer
+
+ReportForNav.Watermark.Text.Text String
+ReportForNav.Watermark.Text.BackColor String
+ReportForNav.Watermark.Text.ForeColor String
+ReportForNav.Watermark.Text.DeviceFont String
+ReportForNav.Watermark.Text.FormatString String
+ReportForNav.Watermark.Text.Hyperlink String
+ReportForNav.Watermark.Text.Visible Boolean
+```
+
 ### AppendPdf function
 
 ```AL
