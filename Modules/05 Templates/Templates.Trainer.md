@@ -31,6 +31,13 @@ Explain and demo changes to templates
 * Add new section on the Master report. Explain steps needed on child reports
 * Change Margins. Explain steps needed on child reports
 
+### Video Script
+When 
+
+DEMO
+
+*Create 2 layouts for the ForNAV Customer List and 2 for the Vendor list.*
+
 ## Execution
 Duration:
 
