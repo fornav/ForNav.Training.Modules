@@ -8,6 +8,6 @@
   * Balance_LCY with caption
   * FieldLookups.LanguageName with caption
 
-Use the ForNAV Guide for [SaaS]() or [On Premise]()
+Use the ForNAV Guide for [SaaS](https://fornav.github.io/ForNav.Guide/#/ForNAVForBCSaaS/Records) or [On Premise](https://fornav.github.io/ForNav.Guide/#/ForNAVForBCOnPrem/Records)
 
 <!-- ToDO -> edit links -->

@@ -7,6 +7,6 @@
 * Change the Margins of the Sales Template report to 200, 200, 100, 200. Move the logo control to match the margin on the right. Preview the Invoice report and observe the changes
 * Fix the margins on the Invoice report
 
-Use the ForNAV Guide for [SaaS]() or [On Premise]()
+Use the ForNAV Guide for [SaaS](https://fornav.github.io/ForNav.Guide/#/ForNAVForBCSaaS/Templates) or [On Premise](https://fornav.github.io/ForNav.Guide/#/ForNAVForBCOnPrem/Templates)
 
 <!-- ToDO -> edit links -->
